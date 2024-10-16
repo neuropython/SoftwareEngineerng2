@@ -5,7 +5,10 @@ import org.example.Calculator;
 public class CalculatorLauncher {
     public static void main(String[] args) {
     Calculator calculator = new Calculator();
-    int sum = calculator.add(1,2);
-    System.out.println(sum);
+    int x = calculator.add(1,2);
+    int y = calculator.substract(1,2);
+    System.out.println(x);
+    System.out.println(y);
+
     };
 }
