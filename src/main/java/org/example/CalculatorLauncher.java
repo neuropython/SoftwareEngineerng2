@@ -1,7 +1,11 @@
 package org.example;
+import org.example.Calculator;
 
-public class CalcultorLauncher {
+
+public class CalculatorLauncher {
     public static void main(String[] args) {
-        System.out.println("Coming soon!");
+    Calculator calculator = new Calculator();
+    int sum = calculator.add(1,2);
+    System.out.println(sum);
     };
 }
