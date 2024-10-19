@@ -5,10 +5,11 @@ import org.example.Calculator;
 public class CalculatorLauncher {
     public static void main(String[] args) {
     Calculator calculator = new Calculator();
-    int x = calculator.add(1,2);
-    int y = calculator.substract(1,2);
-    int z = calculator.multiply(1,2);
-    int j = calculator.division(1,2);
+    double x = calculator.add(1,2);
+    double y = calculator.substract(1,2);
+    double z = calculator.multiply(1,2);
+    double j = calculator.division(1,2);
+//    double i = calculator.division(1,0);
     System.out.println(x);
     System.out.println(y);
     System.out.println(z);
