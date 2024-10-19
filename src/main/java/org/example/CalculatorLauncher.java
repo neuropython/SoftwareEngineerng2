@@ -7,8 +7,10 @@ public class CalculatorLauncher {
     Calculator calculator = new Calculator();
     int x = calculator.add(1,2);
     int y = calculator.substract(1,2);
+    int z = calculator.multiply(1,2);
     System.out.println(x);
     System.out.println(y);
+    System.out.println(z);
 
     };
 }
